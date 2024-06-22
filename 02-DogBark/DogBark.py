@@ -32,7 +32,7 @@ def main():
     caption2 = font2.render("Me When", True, pygame.Color("White"))
     # Prepare the music
     # TODO 8: Create a Sound object from the "bark.wav" file.
-    dog_bark = pygame.mixer.Sound("bark.wav")
+    dog_bark = pygame.mixer.Sound("bark.mp3")
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

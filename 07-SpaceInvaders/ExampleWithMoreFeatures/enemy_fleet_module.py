@@ -8,7 +8,7 @@ class Badguy:
         self.screen = screen
         self.x = x
         self.y = y
-        self.speed = speed * 1.5
+        self.speed = speed * 0.5
         self.image = pygame.image.load("images/badguy.png")
         self.original_x = x
 

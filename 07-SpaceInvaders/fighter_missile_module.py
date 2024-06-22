@@ -57,6 +57,7 @@ class Fighter:
 
 
 def main():
+    #fake main to do testing
     pygame.init()
     clock = pygame.time.Clock()
     pygame.display.set_caption("Testing the Fighter and Missiles only")
