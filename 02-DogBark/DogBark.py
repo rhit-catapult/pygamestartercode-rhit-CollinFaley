@@ -21,6 +21,8 @@ def main():
     image1 = pygame.image.load("2dogs.JPG")
     # TODO 3: Scale the image to be the size (IMAGE_SIZE, IMAGE_SIZE)
     image1 = pygame.transform.scale(image1, (470, 470))
+    #image1 = pygame.transform.rotate(image1, 25)
+
     # Prepare the text caption(s)
     # TODO 4: Create a font object with a size 28 font.
     font1 = pygame.font.SysFont("yugothicui",28)

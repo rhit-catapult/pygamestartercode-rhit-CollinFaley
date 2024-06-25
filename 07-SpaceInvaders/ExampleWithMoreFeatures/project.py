@@ -2,7 +2,7 @@ import pygame
 import sys
 import space_invaders
 import button_module
-
+      
 def main():
     pygame.init()
     pygame.display.set_caption("Space Invaders")
